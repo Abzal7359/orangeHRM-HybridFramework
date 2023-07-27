@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-27T17:38:06 IST" name="Suite" finished-at="2023-07-27T17:38:33 IST" duration-ms="27075">
+    <groups>
+    </groups>
+    <test started-at="2023-07-27T17:38:06 IST" name="Test" finished-at="2023-07-27T17:38:33 IST" duration-ms="27075">
+      <class name="tests.AdminLoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AdminLoginTest@53045c6c]" started-at="2023-07-27T17:38:06 IST" name="setup" finished-at="2023-07-27T17:38:09 IST" duration-ms="2747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AdminLogin()[pri:0, instance:tests.AdminLoginTest@53045c6c]" started-at="2023-07-27T17:38:09 IST" name="AdminLogin" finished-at="2023-07-27T17:38:11 IST" duration-ms="1931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.AdminLoginTest@53045c6c]" started-at="2023-07-27T17:38:11 IST" name="teardown" finished-at="2023-07-27T17:38:11 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.AdminLoginTest -->
+      <class name="tests.AddEmployee">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AddEmployee@33065d67]" started-at="2023-07-27T17:38:11 IST" name="setup" finished-at="2023-07-27T17:38:15 IST" duration-ms="3379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ADDEmployee()[pri:0, instance:tests.AddEmployee@33065d67]" started-at="2023-07-27T17:38:15 IST" name="ADDEmployee" finished-at="2023-07-27T17:38:17 IST" duration-ms="2418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ADDEmployee -->
+        <test-method signature="EditEmployee()[pri:1, instance:tests.AddEmployee@33065d67]" started-at="2023-07-27T17:38:17 IST" name="EditEmployee" finished-at="2023-07-27T17:38:19 IST" duration-ms="1762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditEmployee -->
+        <test-method signature="New_Employee_Login()[pri:3, instance:tests.AddEmployee@33065d67]" started-at="2023-07-27T17:38:19 IST" name="New_Employee_Login" finished-at="2023-07-27T17:38:20 IST" duration-ms="859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- New_Employee_Login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.AddEmployee@33065d67]" started-at="2023-07-27T17:38:20 IST" name="teardown" finished-at="2023-07-27T17:38:21 IST" duration-ms="744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.AddEmployee -->
+      <class name="tests.SearchEmployee">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchEmployee@712625fd]" started-at="2023-07-27T17:38:21 IST" name="setup" finished-at="2023-07-27T17:38:24 IST" duration-ms="3538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="serach_withID()[pri:0, instance:tests.SearchEmployee@712625fd]" started-at="2023-07-27T17:38:24 IST" name="serach_withID" finished-at="2023-07-27T17:38:26 IST" duration-ms="1128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serach_withID -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.SearchEmployee@712625fd]" started-at="2023-07-27T17:38:26 IST" name="teardown" finished-at="2023-07-27T17:38:26 IST" duration-ms="663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.SearchEmployee -->
+      <class name="tests.RecruitmentADD">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RecruitmentADD@7bba5817]" started-at="2023-07-27T17:38:26 IST" name="setup" finished-at="2023-07-27T17:38:30 IST" duration-ms="3404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ADDvacancy()[pri:0, instance:tests.RecruitmentADD@7bba5817]" started-at="2023-07-27T17:38:30 IST" name="ADDvacancy" finished-at="2023-07-27T17:38:32 IST" duration-ms="1958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ADDvacancy -->
+        <test-method signature="delete_CurrentCreatedjob()[pri:0, instance:tests.RecruitmentADD@7bba5817]" started-at="2023-07-27T17:38:32 IST" name="delete_CurrentCreatedjob" finished-at="2023-07-27T17:38:32 IST" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_CurrentCreatedjob -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.RecruitmentADD@7bba5817]" started-at="2023-07-27T17:38:32 IST" name="teardown" finished-at="2023-07-27T17:38:33 IST" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.RecruitmentADD -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
